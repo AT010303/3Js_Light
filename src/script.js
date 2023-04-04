@@ -62,26 +62,26 @@ scene.add(spotLight.target)
 
 
 //helpers
-const hemispherelighthelper = new THREE.HemisphereLightHelper(hemiSphere , 0.2)
-scene.add(hemispherelighthelper)
+// const hemispherelighthelper = new THREE.HemisphereLightHelper(hemiSphere , 0.2)
+// scene.add(hemispherelighthelper)
 
-const directionalLightHelper  = new THREE.DirectionalLightHelper(directionalLight , 0.2)
-scene.add(directionalLightHelper)
+// const directionalLightHelper  = new THREE.DirectionalLightHelper(directionalLight , 0.2)
+// scene.add(directionalLightHelper)
 
-const pointLightHelper = new THREE.PointLightHelper(pointLight , 0.2)
-scene.add(pointLightHelper)
+// const pointLightHelper = new THREE.PointLightHelper(pointLight , 0.2)
+// scene.add(pointLightHelper)
 
 
-const spotLightHelper = new THREE.SpotLightHelper(spotLight)
-scene.add(spotLightHelper)
-window.requestAnimationFrame(()=>{
-    spotLightHelper.update()
-})
+// const spotLightHelper = new THREE.SpotLightHelper(spotLight)
+// scene.add(spotLightHelper)
+// window.requestAnimationFrame(()=>{
+//     spotLightHelper.update()
+// })
 
-import { RectAreaLightHelper } from 'three/examples/jsm/helpers/RectAreaLightHelper'
+// import { RectAreaLightHelper } from 'three/examples/jsm/helpers/RectAreaLightHelper'
 
-const rectAreaHelper = new RectAreaLightHelper(rectAreaLight)
-scene.add(rectAreaHelper)
+// const rectAreaHelper = new RectAreaLightHelper(rectAreaLight)
+// scene.add(rectAreaHelper)
 /**
  * Objects
  */
